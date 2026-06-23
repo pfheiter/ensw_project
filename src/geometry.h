@@ -9,4 +9,6 @@ double calculate_area(const Circle_t* circle);
 
 double calculate_perimeter(const Circle* circle);
 
+double calculate_circumference(const Circle* circle);
+
 #endif // GEOMETRY_H
