@@ -3,8 +3,8 @@
 
 typedef struct {
     double radius;
-} Circle;
+} Circle_t;
 
-double calculate_area(const Circle* circle);
+double calculate_area(const Circle_t* circle);
 
 #endif // GEOMETRY_H
