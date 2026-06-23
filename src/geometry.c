@@ -1,7 +1,7 @@
 #include "geometry.h"
 #include <math.h>
 
-double calculate_area(const Circle* circle) {
+double calculate_area(const Circle_t* circle) {
     return M_PI * circle->radius * circle->radius;
 }
 
