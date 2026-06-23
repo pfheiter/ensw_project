@@ -7,4 +7,6 @@ typedef struct {
 
 double calculate_area(const Circle* circle);
 
+double calculate_perimeter(const Circle* circle);
+
 #endif // GEOMETRY_H
