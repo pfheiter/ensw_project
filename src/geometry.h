@@ -3,9 +3,11 @@
 
 typedef struct {
     double radius;
-} Circle;
+} Circle_t;
 
-double calculate_area(const Circle* circle);
+double calculate_area(const Circle_t* circle);
+
+double calculate_perimeter(const Circle* circle);
 
 double calculate_circumference(const Circle* circle);
 
